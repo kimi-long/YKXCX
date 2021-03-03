@@ -1,0 +1,16 @@
+$color-primary:rgb(237, 121, 121); /* 主题颜色 */
+$color-primary-green:rgb(115, 136, 117); /* 更换的颜色 */
+$color-primary-blue:rgb(72, 175, 249); /* 更换的颜色 */
+ 
+ 
+@mixin color_primary($color){/*通过该函数设置字体颜色，后期方便统一管理；*/
+  color:$color;
+   
+  [data-theme="green"] & {
+    color:$color-primary-green;
+  }
+  [data-theme="blue"] & {
+    color:$color-primary-blue;
+  }
+   
+}

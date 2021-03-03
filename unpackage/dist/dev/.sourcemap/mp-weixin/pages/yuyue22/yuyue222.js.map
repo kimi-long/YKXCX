@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,iN;AACAA,UAAU,CAACC,cAAD,CAAV,C","file":"pages/yuyue22/yuyue222.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/yuyue22/yuyue222.vue'\ncreatePage(Page)"],"sourceRoot":""}
